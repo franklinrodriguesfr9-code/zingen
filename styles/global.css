@@ -94,6 +94,11 @@ ul[role="list"]{
   list-style: none;
 }
 
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 /*a fonte pai do media é sempre o root*/
 @media (width >= 80em) {
   :root{
